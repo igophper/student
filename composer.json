@@ -30,6 +30,13 @@
       "Tests\\": "tests/"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Igophper\\Student\\ServiceProvider"
+      ]
+    }
+  },
   "scripts": {
     "test": "./vendor/bin/phpunit tests"
   }
