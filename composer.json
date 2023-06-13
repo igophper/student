@@ -1,5 +1,19 @@
 {
   "name": "igophper/student",
+  "description": "A student package",
+  "keywords": [
+    "student"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "igophper",
+      "email": "admin@jialigu.cn",
+      "homepage": "https://jialigu.cn",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
   "require": {
     "php": ">=5.6"
   },
