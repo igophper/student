@@ -4,7 +4,7 @@ namespace Igophper\Student;
 
 class Student
 {
-    private $name = 'default name 3';
+    private $name = 'default name 4';
 
     public function __construct($name = null)
     {
