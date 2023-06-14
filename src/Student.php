@@ -16,4 +16,9 @@ class Student
         return $this->name;
     }
 
+    public function getDefaultConstant()
+    {
+        return defined('STUDENT_NAME') ? STUDENT_NAME : 'default constant';
+    }
+
 }

@@ -23,7 +23,10 @@
   "autoload": {
     "psr-4": {
       "Igophper\\Student\\": "src/"
-    }
+    },
+    "files": [
+      "src/helpers.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
