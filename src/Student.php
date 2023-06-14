@@ -8,6 +8,9 @@ class Student
 
     public function __construct($name = null)
     {
+        if (!defined('STUDENT_NAME')) {
+            include_once __DIR__ . '/helpers.php';
+        }
         !is_null($name) && $this->name = $name;
     }
 
